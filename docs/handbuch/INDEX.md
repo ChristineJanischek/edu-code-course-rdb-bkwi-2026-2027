@@ -25,6 +25,7 @@
 - **[anleitungen/teacher-ui-dashboard.md](anleitungen/teacher-ui-dashboard.md)** - Dedizierte Lehrkräfte-Seite für Modulplanung, Curriculum-Mapping und Unterrichtsmodule
 - **[anleitungen/classroom-weiter-ablauf-fuer-schueler.md](anleitungen/classroom-weiter-ablauf-fuer-schueler.md)** - Didaktische Schrittfolge fuer Schueler zur KI-gestuetzten weiter-Routine im Classroom
 - **[anleitungen/classroom-weiter-arbeitsblatt.md](anleitungen/classroom-weiter-arbeitsblatt.md)** - Kompaktes Arbeitsblatt mit Checkboxen fuer die weiter-Routine im Classroom
+- **[anleitungen/classroom-kursinhalt-bkwi2.md](anleitungen/classroom-kursinhalt-bkwi2.md)** - Anleitung fuer bkwi2-Schuelerinnen und -Schueler zum gemeinsamen Aufbau von Kursinhalten
 - **[anleitungen/lizenz-rollout-oeffentliche-repos.md](anleitungen/lizenz-rollout-oeffentliche-repos.md)** - Automatisierter Rollout einer benutzerdefinierten Lizenz auf alle öffentlichen GitHub-Repositories
 - **[anleitungen/neues-repo-mit-custom-lizenz.md](anleitungen/neues-repo-mit-custom-lizenz.md)** - Neues GitHub-Repository direkt mit automatischer Custom-Lizenz erstellen
 
@@ -56,6 +57,7 @@
 - **[routinen/kurzfristig/KF-ROUTINE-011-drei-versionen-klassenarbeit.md](routinen/kurzfristig/KF-ROUTINE-011-drei-versionen-klassenarbeit.md)** - Automatismus für VERSION1/2/3 mit gleicher Schwierigkeit und variierenden Kontexten
 - **[routinen/kurzfristig/KF-ROUTINE-012-mvc-oo-businesslogik-trennung.md](routinen/kurzfristig/KF-ROUTINE-012-mvc-oo-businesslogik-trennung.md)** - Verbindliche Trennung von Business-Logik nach MVC/OOP fuer interaktive Oberflaechen
 - **[routinen/kurzfristig/KF-ROUTINE-013-repo-oop-mvc-guardrails.md](routinen/kurzfristig/KF-ROUTINE-013-repo-oop-mvc-guardrails.md)** - Repo-weite Guardrails fuer OOP/MVC inklusive Pflichtchecks
+- **[routinen/kurzfristig/KF-ROUTINE-014-kursinhalt-gemeinsam-aufbauen-bkwi2.md](routinen/kurzfristig/KF-ROUTINE-014-kursinhalt-gemeinsam-aufbauen-bkwi2.md)** - Kollaborativer Kursinhaltaufbau mit Schuelerinnen und Schuelern der Klasse bkwi2
 
 ---
 
