@@ -22,6 +22,7 @@
 ### 🧪 Anleitungen & Live-Tests
 - **[anleitungen/java-live-test.md](anleitungen/java-live-test.md)** - Java-App kompilieren, Modell-Tests & GUI starten
 - **[anleitungen/rdb-live-test-und-webserver-setup.md](anleitungen/rdb-live-test-und-webserver-setup.md)** - Docker-Live-Test, Webserver-Voraussetzungen und Betriebsanleitung für relationale Datenbankinhalte
+- **[anleitungen/schueler-branches-und-pull-requests.md](anleitungen/schueler-branches-und-pull-requests.md)** - Schritt-fuer-Schritt fuer den Team-Branch- und Pull-Request-Workflow im Unterricht
 - **[anleitungen/teacher-ui-dashboard.md](anleitungen/teacher-ui-dashboard.md)** - Dedizierte Lehrkräfte-Seite für Modulplanung, Curriculum-Mapping und Unterrichtsmodule
 - **[anleitungen/classroom-weiter-ablauf-fuer-schueler.md](anleitungen/classroom-weiter-ablauf-fuer-schueler.md)** - Didaktische Schrittfolge fuer Schueler zur KI-gestuetzten weiter-Routine im Classroom
 - **[anleitungen/classroom-weiter-arbeitsblatt.md](anleitungen/classroom-weiter-arbeitsblatt.md)** - Kompaktes Arbeitsblatt mit Checkboxen fuer die weiter-Routine im Classroom
@@ -31,6 +32,7 @@
 ### 🔧 Prozesse & Governance
 - **[prozesse/neue-routine-erstellen.md](prozesse/neue-routine-erstellen.md)** - Schritt-für-Schritt Anleitung
 - **[prozesse/lehrplanbasierte-inhaltserweiterung.md](prozesse/lehrplanbasierte-inhaltserweiterung.md)** - Curriculare Inhaltsanalyse, didaktische Ableitung und ML/RAG-Workflow
+- **[prozesse/klassenrepository-team-workflow.md](prozesse/klassenrepository-team-workflow.md)** - Betriebsmodell fuer 8 Teams: Team-Branches, Pull Requests, Pflichtchecks und Lehrerfeedback
 - **[prozesse/llm-assistent-implementierungsroutine.md](prozesse/llm-assistent-implementierungsroutine.md)** - Wiederholbare Schrittfolge fuer KI-Assistenten in neuen Fachthemen
 - **[prozesse/teacher-ui-batch-routine.md](prozesse/teacher-ui-batch-routine.md)** - Strukturierte Erfassung und Analyse von Teacher-UI-Ideen in Inhalts-Batches
 - **[prozesse/routine-aktualisieren.md](prozesse/routine-aktualisieren.md)** - Update & Wartung

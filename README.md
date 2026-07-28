@@ -20,6 +20,22 @@ Dieses Repository hat ab sofort einen klaren Portal-Einstieg mit zwei Zielgruppe
 - Aufgaben VERSION1 (HTML): [generated/klassenarbeiten/KA02_2025_2026_VERSION1_aufg.html](generated/klassenarbeiten/KA02_2025_2026_VERSION1_aufg.html)
 - Lösung VERSION1 (HTML): [generated/klassenarbeiten/KA02_2025_2026_VERSION1_lsg.html](generated/klassenarbeiten/KA02_2025_2026_VERSION1_lsg.html)
 
+## Klassenbetrieb 2026-2027 (8 Teams)
+
+Dieses Repository ist der konkrete Arbeitsraum fuer den Jahrgang BKWI 2026-2027.
+Die dauerhaft gepflegte Kursvorlage bleibt im separaten Master-Repository `edu-code-course-rdb`.
+
+Verbindlicher Arbeitsfluss im Klassenrepository:
+
+1. `main` bleibt stabil und geschuetzt.
+2. Team-Basisbranches `team-01` bis `team-08` werden einmalig angelegt.
+3. Umsetzungen passieren auf `team-XX/<thema-kurzname>`.
+4. Ueber Pull Requests wird nach `main` integriert.
+5. Pflichtchecks und Lehrerfeedback erfolgen vor dem Merge.
+
+Die konkrete Einrichtungs- und Betriebsroutine steht im Handbuch unter:
+[docs/handbuch/prozesse/klassenrepository-team-workflow.md](docs/handbuch/prozesse/klassenrepository-team-workflow.md)
+
 ## Hinweis für Maintainer
 
 Die fachliche SSOT für Inhalte liegt in der normalisierten Content-DB unter `data/content-db/`.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-root_dir="/workspaces/edu-code-course-rdb"
+root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 if [[ -x "$root_dir/.venv/bin/python" ]]; then
   python_bin="$root_dir/.venv/bin/python"
