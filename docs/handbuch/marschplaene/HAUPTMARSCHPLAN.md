@@ -224,6 +224,25 @@ Eine vollständig dokumentierte, wartbare und erweiterbare Wissensdatenbank für
 
 ---
 
+**Milestone 4.3:** Kollaborativer Kursinhalt mit bkwi2
+
+```
+[██░░░░░░░░] 20% abgeschlossen
+```
+
+| # | Todo | Status | Fällig | Aufwand |
+|----|----|-|----|-----|
+| 4.3.1 | ✅ KF-ROUTINE-014 und Classroom-Anleitung erstellen | DONE | 28.07.2026 | 1h |
+| 4.3.2 | ✅ Skript bkwi2-content-beitrag.sh erstellen | DONE | 28.07.2026 | 1h |
+| 4.3.3 | ⏳ Erste bkwi2-Session durchfuehren und Beitraege sammeln | TODO | Offen | 2h/Session |
+| 4.3.4 | ⏳ Peer-Review-Prozess im Unterricht etablieren | TODO | Offen | 1h |
+| 4.3.5 | ⏳ Freigegebene Beitraege in Inhaltskatalog aufnehmen | TODO | Offen | 30 Min |
+
+**Ziel-Datum:** Laufend ab Schuljahr 2026/2027
+**Abhängigkeiten:** KF-ROUTINE-014, classroom-kursinhalt-bkwi2.md
+
+---
+
 ## 📊 Machbarkeitsanalyse
 
 ### Aufwandschätzung
@@ -333,3 +352,4 @@ Eine vollständig dokumentierte, wartbare und erweiterbare Wissensdatenbank für
 **Version History:**
 - v1.0 (23.03.2026): Initiales Marschplan erstellt, Phase 1 gestartet
 - v1.1 (25.03.2026): Planmodus aktiviert, Status an Ist-Zustand angepasst, 72h-Aktionsplan ergänzt
+- v1.2 (28.07.2026): Milestone 4.3 ergaenzt fuer kollaborativen Kursinhaltaufbau mit bkwi2
