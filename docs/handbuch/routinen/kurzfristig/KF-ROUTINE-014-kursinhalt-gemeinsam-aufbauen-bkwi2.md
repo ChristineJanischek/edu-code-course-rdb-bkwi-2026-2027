@@ -36,7 +36,7 @@ Schuelerinnen und Schueler der Klasse bkwi2 bringen sich aktiv in die Erstellung
 ## Erfolgskriterien
 - Jede Schuelergruppe hat mindestens einen fachlich korrekten Inhaltsbeitrag erstellt.
 - Alle Pflichtchecks (Security, Architektur, Doku) sind erfolgreich.
-- Der Beitrag ist unter `generated/uebungen/bkwi2/` abgelegt und im Kataog referenziert.
+- Der Beitrag ist unter `generated/uebungen/bkwi2/` abgelegt und im Inhaltskatalog referenziert.
 - Peer-Review wurde durchgefuehrt und dokumentiert.
 - Lehrkraft-Freigabe ist erteilt.
 
