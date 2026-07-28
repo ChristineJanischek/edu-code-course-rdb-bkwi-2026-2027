@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informationsblatt Teil C: Selektion in SQL</title>
+  <link rel="stylesheet" href="../../assets/generated-docs.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Informationsblatt Teil C: Selektion in SQL</h1>
+      <p>Automatisch aus der zugehörigen Markdown-Quelle erzeugte HTML-Fassung.</p>
+      <p>Quelle: /workspaces/edu-code-course-rdb/generated/informationen/teil-c/03_selektion_in_sql.md</p>
+    </header>
+    <main class="content">
+<h1>Informationsblatt Teil C: Selektion in SQL</h1>
+<p>Zielgruppe: Sekundarstufe II (Abschlussjahr)<br />
+Kontext Teil C: FoodTruckNetz</p>
+<h2>Lernziele</h2>
+<ul>
+<li>Du filterst Datensätze mit WHERE korrekt.</li>
+<li>Du kombinierst Bedingungen mit AND, OR, NOT.</li>
+<li>Du nutzt Vergleichsoperatoren zielgerichtet.</li>
+</ul>
+<h2>Kernidee</h2>
+<p>Selektion bedeutet: Welche Zeilen sollen im Ergebnis enthalten sein?</p>
+<h2>Beispiele</h2>
+<pre><code class="language-sql">SELECT Name, Kategorie
+FROM FOODTRUCK
+WHERE Kategorie = 'Vegan';
+</code></pre>
+<p><code>sql
+SELECT Name
+FROM FOODTRUCK
+WHERE Kategorie = 'Vegan' AN</code>sql
+SELECT Name
+FROM FOODTRUCK
+WHERE Kategorie = 'Vegan' AND Rating &gt;= 4.5;
+```- LIKE
+- IS NULL</p>
+<h2>Merksätze</h2>
+<ul>
+<li>WHERE filtert Zeilen vor Gruppierung.</li>
+<li>Klammern erhöhen Lesbarkeit und Sicherheit.</li>
+<li>Textwerte immer in Anführungszeichen.</li>
+</ul>
+<h2>Typische Fehler</h2>
+<ul>
+<li>AND/OR ohne Klammern falsch kombinieren.</li>
+<li>NULL mit = statt IS NULL prüfen.</li>
+<li>Tippfehler in Literalen.</li>
+</ul>
+<h2>Begriffshilfe</h2>
+<ul>
+<li><a href="../begrifflichkeiten/stichwortverzeichnis_relationale_datenbanken.html">Stichwortverzeichnis Relationale Datenbanken</a></li>
+</ul>
+    </main>
+  </div>
+</body>
+</html>

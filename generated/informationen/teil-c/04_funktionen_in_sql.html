@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informationsblatt Teil C: Funktionen in SQL</title>
+  <link rel="stylesheet" href="../../assets/generated-docs.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Informationsblatt Teil C: Funktionen in SQL</h1>
+      <p>Automatisch aus der zugehörigen Markdown-Quelle erzeugte HTML-Fassung.</p>
+      <p>Quelle: /workspaces/edu-code-course-rdb/generated/informationen/teil-c/04_funktionen_in_sql.md</p>
+    </header>
+    <main class="content">
+<h1>Informationsblatt Teil C: Funktionen in SQL</h1>
+<p>Zielgruppe: Sekundarstufe II (Abschlussjahr)<br />
+Kontext Teil C: FoodTruckNetz</p>
+<h2>Lernziele</h2>
+<ul>
+<li>Du setzt SQL-Funktionen zweckgerecht ein.</li>
+<li>Du unterscheidest Zeilenfunktionen und Aggregatfunktionen.</li>
+<li>Du formatierst Ergebnisse verständlich.</li>
+</ul>
+<h2>Beispiele für Zeilenfunktionen</h2>
+<pre><code class="language-sql">SELECT UPPER(Name) AS NameGross
+FROM FOODTRUCK;
+</code></pre>
+<pre><code class="language-sql">SELECT ROUND(Rating, 1) AS Bewertet
+FROM FOODTRUCK;
+</code></pre>
+<h2>Beispiele für Aggregatfunktionen</h2>
+<pre><code class="language-sql">SELECT COUNT(*) AS AnzahlTrucks
+FROM FOODTRUCK;
+</code></pre>
+<pre><code class="language-sql">SELECT AVG(Rating) AS Durchschnitt
+FROM FOODTRUCK;
+</code></pre>
+<h2>Merksätze</h2>
+<ul>
+<li>Aggregatfunktionen verdichten mehrere Zeilen.</li>
+<li>Aliasnamen machen Ergebnisse lesbar.</li>
+<li>Funktionseinsatz muss fachlich begründet sein.</li>
+</ul>
+<h2>Typische Fehler</h2>
+<ul>
+<li>Aggregat und Nicht-Aggregat ohne GROUP BY mischen.</li>
+<li>Rundung zu früh durchführen.</li>
+<li>Falsche Datentypannahmen.</li>
+</ul>
+<h2>Begriffshilfe</h2>
+<ul>
+<li><a href="../begrifflichkeiten/stichwortverzeichnis_relationale_datenbanken.html">Stichwortverzeichnis Relationale Datenbanken</a></li>
+</ul>
+    </main>
+  </div>
+</body>
+</html>

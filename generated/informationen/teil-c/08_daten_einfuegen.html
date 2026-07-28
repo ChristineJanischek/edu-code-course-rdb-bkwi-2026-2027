@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informationsblatt Teil C: Daten einfügen</title>
+  <link rel="stylesheet" href="../../assets/generated-docs.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Informationsblatt Teil C: Daten einfügen</h1>
+      <p>Automatisch aus der zugehörigen Markdown-Quelle erzeugte HTML-Fassung.</p>
+      <p>Quelle: /workspaces/edu-code-course-rdb/generated/informationen/teil-c/08_daten_einfuegen.md</p>
+    </header>
+    <main class="content">
+<h1>Informationsblatt Teil C: Daten einfügen</h1>
+<p>Zielgruppe: Sekundarstufe II (Abschlussjahr)<br />
+Kontext Teil C: FoodTruckNetz</p>
+<h2>Lernziele</h2>
+<ul>
+<li>Du fügst Datensätze mit INSERT korrekt ein.</li>
+<li>Du beachtest Datentypen und Pflichtfelder.</li>
+<li>Du vermeidest Integritätsverletzungen.</li>
+</ul>
+<h2>Grundmuster</h2>
+<pre><code class="language-sql">INSERT INTO FOODTRUCK (TruckID, Name, Kategorie, Rating)
+VALUES (101, 'Green Wheels', 'Vegan', 4.7);
+</code></pre>
+<h2>Mehrere Datensätze</h2>
+<p>__<code>sql
+INSERT INTO STANDORT (StandortID, Stadt)
+VALUES (1, 'Kiel'), (2, 'Luebeck');</code>uebeck');
+```</p>
+<h2>Merksä```sql</h2>
+<p>INSERT INTO STANDORT (StandortID, Stadt)
+VALUES (1, 'Kiel'), (2, 'Luebeck');
+<code>`ereinstimmen.
+- FK-Werte nur auf</code>istierende PKs setzen.</p>
+<h2>Typische Fehler</h2>
+<ul>
+<li>Fehlende Pflichtspalten.</li>
+<li>Falsche Datumsformate.</li>
+<li>Fremdschlüssel auf nicht existente Datensätze.</li>
+</ul>
+<h2>Begriffshilfe</h2>
+<ul>
+<li><a href="../begrifflichkeiten/stichwortverzeichnis_relationale_datenbanken.html">Stichwortverzeichnis Relationale Datenbanken</a></li>
+</ul>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.env
+build/
+__pycache__/
+*.pyc
+
+# Upload-Verzeichnis: komplett lokal, nicht versionieren und nicht in Templates uebernehmen
+uploads/
+
+# Lokale Loesungsablaeufe: nicht versionieren und nicht in Templates uebernehmen
+src/ka_loesungen/

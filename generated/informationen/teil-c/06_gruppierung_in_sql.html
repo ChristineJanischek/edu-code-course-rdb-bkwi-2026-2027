@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informationsblatt Teil C: Gruppierung in SQL</title>
+  <link rel="stylesheet" href="../../assets/generated-docs.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Informationsblatt Teil C: Gruppierung in SQL</h1>
+      <p>Automatisch aus der zugehörigen Markdown-Quelle erzeugte HTML-Fassung.</p>
+      <p>Quelle: /workspaces/edu-code-course-rdb/generated/informationen/teil-c/06_gruppierung_in_sql.md</p>
+    </header>
+    <main class="content">
+<h1>Informationsblatt Teil C: Gruppierung in SQL</h1>
+<p>Zielgruppe: Sekundarstufe II (Abschlussjahr)<br />
+Kontext Teil C: FoodTruckNetz</p>
+<h2>Lernziele</h2>
+<ul>
+<li>Du bildest Gruppen mit GROUP BY.</li>
+<li>Du wertest Gruppen mit Aggregatfunktionen aus.</li>
+<li>Du filterst Gruppen mit HAVING.</li>
+</ul>
+<h2>Grundmuster</h2>
+<pre><code class="language-sql">SELECT Stadt, COUNT(*) AS Einsaetze
+FROM STANDORT s
+JOIN EINSATZ e ON e.StandortID = s.StandortID
+GROUP BY Stadt;
+</code></pre>
+<h2>HAVING statt WHERE</h2>
+<ul>
+<li>WHERE filtert einzelne Zeilen vor der Gruppierung.</li>
+<li>HAVING filtert bereits gebildete Gruppen.</li>
+</ul>
+<p>Beispiel:
+<code>sql
+SELECT Stadt, COUNT(*) AS Einsaetze
+FROM STANDORT s
+JOIN EINSATZ e ON e.StandortID = s.StandortID
+GROUP</code>sql
+SELECT Stadt, COUNT(<em>) AS Einsaetze
+FROM STANDORT s
+JOIN EINSATZ e ON e.StandortID = s.StandortID
+GROUP BY Stadt
+HAVING COUNT(</em>) &gt;= 5;
+```icht.
+- HAVING prüft Gruppenbedingungen.</p>
+<h2>Begriffshilfe</h2>
+<ul>
+<li><a href="../begrifflichkeiten/stichwortverzeichnis_relationale_datenbanken.html">Stichwortverzeichnis Relationale Datenbanken</a></li>
+</ul>
+    </main>
+  </div>
+</body>
+</html>

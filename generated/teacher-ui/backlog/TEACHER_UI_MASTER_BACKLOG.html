@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teacher UI Master Backlog</title>
+  <link rel="stylesheet" href="../../assets/generated-docs.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Teacher UI Master Backlog</h1>
+      <p>Automatisch aus der zugehörigen Markdown-Quelle erzeugte HTML-Fassung.</p>
+      <p>Quelle: /workspaces/edu-code-course-rdb/generated/teacher-ui/backlog/TEACHER_UI_MASTER_BACKLOG.md</p>
+    </header>
+    <main class="content">
+<h1>Teacher UI Master Backlog</h1>
+<p>Aktualisiert am (UTC): 2026-07-11T15:18:46Z</p>
+<h2>Batches</h2>
+<ul>
+<li>BATCH-001 (erstellt 20260711-151846)</li>
+</ul>
+<h2>TUI-Eintraege aus BATCH-001</h2>
+<h3>TUI-001 Sprachaufnahme zu Struktur</h3>
+<ul>
+<li>Prioritaet: Kritisch</li>
+<li>Zielbereich: Core</li>
+<li>Prozess: Unterricht planen, Material erstellen</li>
+<li>Status: In Umsetzung</li>
+</ul>
+<p>Akzeptanzkriterien:</p>
+<ol>
+<li>Spracheingabe wird in strukturierte Textform normalisiert.</li>
+<li>Einzelanforderungen werden nachvollziehbar gelistet.</li>
+<li>Zu jeder Intake-Ausfuehrung entsteht eine standardisierte To-do-Liste.</li>
+<li>Akzeptanzkriterien und Testvorschlaege werden automatisch dokumentiert.</li>
+</ol>
+<p>Technische Teilaufgaben:</p>
+<ul>
+<li>Intake-Skript bereitstellen: <code>scripts/teacher-ui-intake.sh</code></li>
+<li>Ergebnisartefakt unter <code>generated/teacher-ui/intake/</code> erzeugen</li>
+<li>Prozessdokumentation fuer TUI-001 aktualisieren</li>
+</ul>
+<p>Sinnvolle Tests:</p>
+<ul>
+<li>Parser-Test auf Fuellwoerter und Leerzeichen-Normalisierung</li>
+<li>Segmentierungs-Test fuer mehrere Einzelanforderungen</li>
+<li>Fehlerfall-Test fuer ungueltige Input-Datei</li>
+</ul>
+<h3>TUI-002 Prozess- und UI-Zuordnung</h3>
+<ul>
+<li>Prioritaet: Hoch</li>
+<li>Zielbereich: Core</li>
+<li>Prozess: Aufgabe erstellen, Aufgabe veroeffentlichen, Feedback geben</li>
+<li>Status: In Umsetzung</li>
+</ul>
+<p>Akzeptanzkriterien:</p>
+<ol>
+<li>Jede erkannte Anforderung wird einem Lehrerprozess zugeordnet.</li>
+<li>Jede Zuordnung enthaelt UI-Hauptbereich und Darstellungsform.</li>
+<li>Die Zuordnung bevorzugt bestehende UI-Strukturen vor neuen Reitern.</li>
+<li>Routing-Regeln sind als reproduzierbares Artefakt dokumentiert.</li>
+</ol>
+<p>Technische Teilaufgaben:</p>
+<ul>
+<li>Routing-Skript bereitstellen: scripts/teacher-ui-routing.sh</li>
+<li>Routing-Artefakt unter generated/teacher-ui/routing/ erzeugen</li>
+<li>Prozessdokumentation fuer TUI-002 aktualisieren</li>
+</ul>
+<p>Sinnvolle Tests:</p>
+<ul>
+<li>Mapping-Test fuer Prozesszuordnung anhand typischer Aufgabenbegriffe</li>
+<li>Stabilitaetstest der UI-Zuordnung bei synonymen Formulierungen</li>
+<li>Fallback-Test fuer unklare Anforderungen</li>
+</ul>
+<h3>TUI-003 To-do-Generierung je Funktionswunsch</h3>
+<ul>
+<li>Prioritaet: Kritisch</li>
+<li>Zielbereich: Core</li>
+<li>Prozess: Backlog-Management, Release-Planung</li>
+<li>Status: In Umsetzung</li>
+</ul>
+<p>Akzeptanzkriterien:</p>
+<ol>
+<li>Jede geroutete Anforderung wird in genau einen To-do-Eintrag ueberfuehrt.</li>
+<li>Jeder Eintrag enthaelt Prioritaet, fachlichen Schritt, technischen Schritt und Testschritt.</li>
+<li>Kritische Aufgaben sind gegenueber Mittel priorisiert.</li>
+<li>Ergebnis wird als versionierbares Artefakt unter generated abgelegt.</li>
+</ol>
+<p>Technische Teilaufgaben:</p>
+<ul>
+<li>To-do-Generator bereitstellen: scripts/teacher-ui-todo.sh</li>
+<li>To-do-Artefakt unter generated/teacher-ui/todos/ erzeugen</li>
+<li>Prozessdokumentation fuer TUI-003 aktualisieren</li>
+</ul>
+<p>Sinnvolle Tests:</p>
+<ul>
+<li>Vollstaendigkeitstest: Anzahl To-dos entspricht Anzahl Routing-Anforderungen</li>
+<li>Priorisierungstest fuer To-do- und Akzeptanzkriterien-Schluesselwoerter</li>
+<li>Fehlerfall-Test bei ungueltigem Inputpfad</li>
+</ul>
+<h3>TUI-004 Kontextbezogene KI im Arbeitsfenster</h3>
+<ul>
+<li>Prioritaet: Hoch</li>
+<li>Zielbereich: Course</li>
+<li>Prozess: Kurs verwalten, Aufgabe differenzieren, Bewertung vorbereiten</li>
+<li>Status: In Umsetzung</li>
+</ul>
+<p>Akzeptanzkriterien:</p>
+<ol>
+<li>Pro Arbeitsfenster ist mindestens eine passende Kontext-KI-Aktion definiert.</li>
+<li>Kontext-KI wird in bestehende Fenster integriert, ohne neuen Hauptreiter.</li>
+<li>Zu jeder Aktion sind Trigger und erwartete Ausgabe beschrieben.</li>
+<li>Eine UI-Smoke-Checkliste ist als Artefakt dokumentiert.</li>
+</ol>
+<p>Technische Teilaufgaben:</p>
+<ul>
+<li>Kontext-Skript bereitstellen: scripts/teacher-ui-context.sh</li>
+<li>Kontext-Artefakt unter generated/teacher-ui/context/ erzeugen</li>
+<li>Prozessdokumentation fuer TUI-004 aktualisieren</li>
+</ul>
+<p>Sinnvolle Tests:</p>
+<ul>
+<li>Integrationstest pro Arbeitsfenster (Kurseditor, Aufgabeneditor, Abgaben)</li>
+<li>Usability-Test: keine neue Hauptnavigation</li>
+<li>Robustheitstest bei fehlenden Kontextdaten</li>
+</ul>
+<h3>TUI-005 Milestone-Tracking mit Triggerwort weiter</h3>
+<ul>
+<li>Prioritaet: Hoch</li>
+<li>Zielbereich: Core</li>
+<li>Prozess: Entwicklungssteuerung, Qualitaetssicherung</li>
+<li>Status: Abgeschlossen</li>
+</ul>
+<p>Akzeptanzkriterien:</p>
+<ol>
+<li>Weiter-Trigger erzeugt bei jedem Lauf einen versionierten Statusbericht.</li>
+<li>Marker M1 bis M5 werden reproduzierbar im Acceptance-Check dokumentiert.</li>
+<li>Naechster Milestone wird aus dem aktuellen Report uebernommen.</li>
+<li>Ein klarer Regressionstestpfad fuer TUI-001 bis TUI-005 ist dokumentiert.</li>
+</ol>
+<p>Technische Teilaufgaben:</p>
+<ul>
+<li>Milestone-Skript bereitstellen: scripts/teacher-ui-milestone.sh</li>
+<li>Milestone-Artefakt unter generated/teacher-ui/milestones/ erzeugen</li>
+<li>Prozessdokumentation fuer TUI-005 aktualisieren</li>
+</ul>
+<p>Sinnvolle Tests:</p>
+<ul>
+<li>Acceptance-Test fuer Marker-Auswertung aus generated/weiter-status.md</li>
+<li>Regressionstestpfad end-to-end (001 bis 005)</li>
+<li>
+<p>Stabilitaetstest bei sauberem und absichtlich dirty Working Tree</p>
+</li>
+<li>
+<p>BATCH-002 (erstellt 20260711-204218)</p>
+</li>
+<li>
+<p>BATCH-CHATGPT-SHARE-001 (erstellt 20260713-112228)</p>
+</li>
+<li>
+<p>BATCH-CHATGPT-SHARE-001 (erstellt 20260713-112707)</p>
+</li>
+</ul>
+    </main>
+  </div>
+</body>
+</html>

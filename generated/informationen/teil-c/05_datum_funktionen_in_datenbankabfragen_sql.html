@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informationsblatt Teil C: Datum-Funktionen in Datenbankabfragen (SQL)</title>
+  <link rel="stylesheet" href="../../assets/generated-docs.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Informationsblatt Teil C: Datum-Funktionen in Datenbankabfragen (SQL)</h1>
+      <p>Automatisch aus der zugehörigen Markdown-Quelle erzeugte HTML-Fassung.</p>
+      <p>Quelle: /workspaces/edu-code-course-rdb/generated/informationen/teil-c/05_datum_funktionen_in_datenbankabfragen_sql.md</p>
+    </header>
+    <main class="content">
+<h1>Informationsblatt Teil C: Datum-Funktionen in Datenbankabfragen (SQL)</h1>
+<p>Zielgruppe: Sekundarstufe II (Abschlussjahr)<br />
+Kontext Teil C: FoodTruckNetz</p>
+<h2>Lernziele</h2>
+<ul>
+<li>Du filterst und berechnest Daten mit Datumsfunktionen.</li>
+<li>Du nutzt aktuelle Zeitbezüge sicher.</li>
+<li>Du formulierst Zeiträume korrekt.</li>
+</ul>
+<h2>Häufige Funktionen in MySQL</h2>
+<ul>
+<li>CURDATE()</li>
+<li>NOW()</li>
+<li>YEAR()</li>
+<li>MONTH()</li>
+<li>DATEDIFF()</li>
+<li>DATE_ADD()</li>
+</ul>
+<h2>Beispiele</h2>
+<pre><code class="language-sql">SELECT *
+FROM EINSATZ
+WHERE Datum &gt;= CURDATE();
+</code></pre>
+<p><code>sql
+SELECT EinsatzID, DATEDIFF(CURDATE(),</code>sql
+SELECT EinsatzID, DATEDIFF(CURDATE(), Datum) AS TageSeitEinsatz
+FROM EINSATZ;
+```klären, dann codieren.
+- Bei Zeiträumen Grenzen eindeutig setzen.
+- Datum und Zeit nicht unbewusst mischen.</p>
+<h2>Typische Fehler</h2>
+<ul>
+<li>Falscher Datentyp (TEXT statt DATE/DATETIME).</li>
+<li>Unscharfe Zeiträume („ab heute“) ohne genaue Bedingung.</li>
+<li>Jahres-/Monatsfilter ohne Indexbewusstsein bei großen Datenmengen.</li>
+</ul>
+<h2>Begriffshilfe</h2>
+<ul>
+<li><a href="../begrifflichkeiten/stichwortverzeichnis_relationale_datenbanken.html">Stichwortverzeichnis Relationale Datenbanken</a></li>
+</ul>
+    </main>
+  </div>
+</body>
+</html>
